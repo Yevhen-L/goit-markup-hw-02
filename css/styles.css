@@ -1,4 +1,15 @@
+/* fonts */
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
+}
+/* cursor finger */
+a,
+button {
+  cursor: pointer;
+}
+/* address color */
+address :hover,
+:focus {
+  color: #4d5ae5;
 }
