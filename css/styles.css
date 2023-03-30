@@ -1,15 +1,173 @@
-/* fonts */
+:root {
+  --brand-color-text: hsl(237, 18%, 22%);
+  --brand-color-background: white;
+  --brand-color-selection: #404bbf;
+}
+
+/**
+  |============================
+  | BODY
+  |============================
+*/
+
 body {
+  background-color: #fff;
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
+  font-size: ;
+  line-height 
 }
-/* cursor finger */
-a,
-button {
+
+/**
+  |============================
+  |   CURSOR
+  |============================
+*/
+.btn-filter :active:hover:focus {
   cursor: pointer;
 }
-/* address color */
-address :hover,
-:focus {
-  color: #4d5ae5;
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.header {
+  background-color: #fff;
+}
+
+.header-nav {
+}
+.header-logo {
+width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-item-link {
+}
+.header-link {
+width: 48px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.address {
+}
+.address-item-link {
+}
+.address-link {
+/* position: absolute; */
+width: 153px;
+height: 24px;
+left: 940px;
+top: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/**
+  |============================
+  | MAIN
+  |============================
+*/
+
+.main {
+}
+.hero-text {
+background-color: #2E2F42;
+width: 496px;
+height: 120px;
+left: 472px;
+top: 260px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.futures-list {
+}
+.futures-item {
+}
+.futures-title {
+}
+.futures-signature {
+}
+.works {
+}
+.works-item {
+}
+.works-img {
+}
+.teams {
+}
+.teams-list {
+}
+.teams-item {
+}
+.teams-tetle {
+}
+.teams-signature {
+}
+
+/**
+  |============================
+  | FOOTER 
+  |============================
+*/
+
+.footer-logo {
+}
+.footer-signature {
+}
+
+/**
+  |============================
+  | PORTFOLIO BUTTONS
+  |============================
+*/
+.btn-filter-portfolio {
+}
+.btn-filter {
+}
+
+/**
+  |============================
+  | 
+  |============================
+*/
+.portfolio-works {
+}
+.portfolio-img {
+}
+.portfolio-title {
+}
+.portfolio-signature {
 }
