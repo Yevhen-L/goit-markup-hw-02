@@ -146,8 +146,6 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
 }
 
 /* WHAT ARE WE DUING */
@@ -263,7 +261,6 @@
   list-style-type: none;
   cursor: pointer;
   color: var(--brand-color-iris);
-  background: var(--cornflower);
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
