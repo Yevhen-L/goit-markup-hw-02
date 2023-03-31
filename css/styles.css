@@ -127,7 +127,12 @@
   display: flex;
   letter-spacing: 0.04em;
 }
-.hero-button:hover:focus {
+.hero-button:hover {
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
+}
+
+.hero-button:focus {
   background-color: var(--brand-color-ocean);
   cursor: pointer;
 }
