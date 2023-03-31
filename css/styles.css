@@ -43,8 +43,7 @@
 
 /* HEADER NAV */
 
-.header-nav {
-}
+/* .header-nav {} */
 
 .header-logo-link {
   text-decoration: none;
@@ -79,8 +78,6 @@
 
 /* HEADER ADR */
 
-.list {
-}
 .address-item-link {
   list-style: none;
   font-style: normal;
@@ -102,8 +99,8 @@
   |============================
 */
 
-.main {
-}
+/* .main {} */
+
 .hero {
   background-color: var(--brand-color-navy);
 }
@@ -130,14 +127,14 @@
   display: flex;
   letter-spacing: 0.04em;
 }
-.hero-button :hover:focus {
-  background-color: #404bbf;
+.hero-button:hover:focus {
+  background-color: var(--brand-color-ocean);
   cursor: pointer;
 }
 
 /* FUTURES */
-.futures {
-}
+
+/* .futures {} */
 
 .futures-item {
   list-style: none;
@@ -176,8 +173,7 @@
   text-transform: capitalize;
 }
 
-.works-img {
-}
+/* .works-img {} */
 
 /* OUR TEAMS */
 
@@ -213,8 +209,7 @@
   list-style: none;
   background-color: var(--brand-color-white);
 }
-.teams-item-img {
-}
+/* .teams-item-img {} */
 .teams-title {
   color: var(--brand-color-navy);
   font-family: "Roboto";
@@ -280,46 +275,45 @@
 
 /* PORTFILIO FILTER BUTTONS */
 
-.btn-filter-portfolio :hover:focus {
-  background-color: var(--brand-color-ocean);
-  color: var(--brand-color-white);
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-.btn-filter-portfolio {
-}
 .btn-filter {
-  list-style-type: none;
-  cursor: pointer;
   color: var(--brand-color-iris);
-  font-family: "Roboto";
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.btn-filter:hover:focus {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
 }
 
 /* PORTFOLIO WORKS */
 
-.portfolio-works {
-  list-style: none;
-}
-.portfolio-img {
-}
+/* .portfolio-img {} */
+
 .portfolio-title {
-  background: var(--brand-color-white);
-  font-family: "Roboto";
+  color: var(--brand-color-navy);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-signature {
   color: var(--slate);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
