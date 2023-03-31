@@ -77,16 +77,17 @@
 
 /* HEADER ADR */
 
-.address {
+.list {
 }
 .address-item-link {
-  list-style-type: none;
+  list-style: none;
+  font-style: normal;
 }
 .address-link {
   text-decoration: none;
+  font-style: normal;
   color: var(--slate);
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -212,17 +213,17 @@
 .footer {
   background-color: var(--brand-color-navy);
 }
-.footer-logo-link {
+.link {
   text-decoration: none;
   list-style: none;
+  font-family: "Raleway", sans-serif;
   color: var(--brand-color-iris);
   width: 44px;
   height: 21px;
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
