@@ -113,20 +113,26 @@
 .hero-text {
   color: var(--brand-color-white);
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--brand-color-white);
   background-color: var(--brand-color-iris);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
+}
+.hero-button :hover:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* FUTURES */
