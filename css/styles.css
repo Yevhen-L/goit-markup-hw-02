@@ -128,13 +128,15 @@
 }
 
 /* FUTURES */
-
-.futures-list {
+.futures {
+}
+.list {
 }
 .futures-item {
   list-style: none;
 }
 .futures-title {
+  color: var(--brand-color-navy);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -143,6 +145,7 @@
   letter-spacing: 0.02em;
 }
 .futures-signature {
+  color: var(--slate);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
