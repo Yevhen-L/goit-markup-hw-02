@@ -1,3 +1,8 @@
+/**
+  |============================
+  |          ROOT
+  |============================
+*/
 :root {
   --brand-color-iris: #4d5ae5;
   --brand-color-ocean: #404bbf;
@@ -26,19 +31,14 @@
 
 /**
   |============================
-  |   CURSOR
-  |============================
-*/
-
-/**
-  |============================
   | HEADER
   |============================
 */
 
 .header {
-  background-color: var(--cornflower);
+  background-color: var(--brand-color-white);
 }
+
 /* HEADER NAV */
 
 .header-nav {
@@ -74,6 +74,7 @@
   font-size: 16px;
   line-height: 24px;
 }
+
 /* HEADER ADR */
 
 .address {
@@ -103,6 +104,7 @@
 .hero {
   background-color: var(--brand-color-navy);
 }
+
 /* HERO */
 
 .hero-text {
@@ -129,7 +131,7 @@
 .futures-list {
 }
 .futures-item {
-  list-style-type: none;
+  list-style: none;
 }
 .futures-title {
   font-family: "Roboto";
@@ -159,7 +161,7 @@
   letter-spacing: 0.02em;
 }
 .works-item {
-  list-style-type: none;
+  list-style: none;
 }
 .works-img {
 }
@@ -210,10 +212,9 @@
 .footer {
   background-color: var(--brand-color-navy);
 }
-
 .footer-logo-link {
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
   color: var(--brand-color-iris);
   width: 44px;
   height: 21px;
@@ -227,7 +228,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .footer-logo {
   color: var(--cloud);
 }
@@ -246,6 +246,9 @@
   | PORTFOLIO
   |============================
 */
+
+/* PORTFILIO FILTER BUTTONS */
+
 .btn-filter-portfolio :hover:focus {
   background-color: var(--brand-color-ocean);
   color: var(--brand-color-white);
@@ -256,7 +259,6 @@
 }
 .btn-filter-portfolio {
 }
-
 .btn-filter {
   list-style-type: none;
   cursor: pointer;
@@ -266,8 +268,11 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+/* PORTFOLIO WORKS */
+
 .portfolio-works {
-  list-style-type: none;
+  list-style: none;
 }
 .portfolio-img {
 }
