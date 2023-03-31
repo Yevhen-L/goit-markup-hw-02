@@ -28,7 +28,9 @@
   background-color: var(--brand-color-white);
   color: var(--slate);
 }
-
+.list {
+  list-style: none;
+}
 /**
   |============================
   | HEADER
@@ -130,8 +132,7 @@
 /* FUTURES */
 .futures {
 }
-.list {
-}
+
 .futures-item {
   list-style: none;
 }
@@ -157,16 +158,18 @@
 /* WHAT ARE WE DUING */
 
 .works {
+  color: var(--brand-color-navy);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.works-item {
-  list-style: none;
-}
+
 .works-img {
 }
 
@@ -175,18 +178,34 @@
 .teams {
   background: var(--cloud);
 }
-.teams-title {
+.our-teams-title {
+  color: var(--brand-color-navy);
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.teams-title {
+  color: var(--brand-color-navy);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
 }
+
 .teams-list {
   background: var(--brand-color-white);
 }
 .teams-item {
   list-style: none;
+  background-color: var(--brand-color-white);
 }
 .teams-item-img {
 }
@@ -201,9 +220,11 @@
 .teams-signature {
   columns: var(--slate);
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 
