@@ -312,16 +312,33 @@
   letter-spacing: 0.04em;
 }
 
-.btn-filter:hover:focus {
+.btn-filter:hover {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
   cursor: pointer;
 }
 
+.btn-filter:focus {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
+}
 
+.btn-filter[All]:hover {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
+}
 
-
+.btn-filter[All]:focus {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
+}
 /* PORTFOLIO WORKS */
+
+.list-portfolio {
+}
 
 /* .portfolio-img {} */
 
