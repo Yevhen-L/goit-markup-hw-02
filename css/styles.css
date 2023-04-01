@@ -105,15 +105,14 @@
 
 /* HEADER ADR */
 
-.link-address-item {
-  list-style: none;
-  font-style: normal;
-}
+/* .link-address-item {} */
+
 .link-address {
   text-decoration: none;
-  font-style: normal;
+  list-style: none;
   color: var(--slate);
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
