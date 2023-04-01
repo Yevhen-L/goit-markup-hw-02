@@ -65,8 +65,8 @@
 }
 
 /* HEADER NAV */
-
-.link-header-logo {
+/* 
+.link {
   text-decoration: none;
   color: var(--brand-color-iris);
   width: 44px;
@@ -80,7 +80,7 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 .header-logo {
   color: var(--brand-color-navy);
 }
