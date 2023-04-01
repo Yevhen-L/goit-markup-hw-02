@@ -19,6 +19,31 @@
 
 /**
   |============================
+  | DEFAULT CLASS
+  |============================
+*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  color: var(--brand-color-iris);
+  width: 44px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/**
+  |============================
   | BODY
   |============================
 */
@@ -28,9 +53,7 @@
   background-color: var(--brand-color-white);
   color: var(--slate);
 }
-.list {
-  list-style: none;
-}
+
 /**
   |============================
   | HEADER
@@ -43,8 +66,6 @@
 
 /* HEADER NAV */
 
-/* .header-nav {} */
-
 .link-header-logo {
   text-decoration: none;
   color: var(--brand-color-iris);
@@ -54,7 +75,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.15;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -64,7 +85,7 @@
   color: var(--brand-color-navy);
 }
 
-.header-link {
+.link-header {
   text-decoration: none;
   color: var(--brand-color-navy);
   font-family: "Roboto";
@@ -73,6 +94,13 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link-header:hover {
+  background-color: var(--brand-color-ocean);
+}
+
+.link-header:focus {
+  background-color: var(--brand-color-ocean);
 }
 
 /* HEADER ADR */
@@ -92,19 +120,25 @@
   letter-spacing: 0.02em;
 }
 
+.link-address:hover {
+  background-color: var(--brand-color-ocean);
+}
+
+.link-address:focus {
+  background-color: var(--brand-color-ocean);
+}
+
 /**
   |============================
   | MAIN
   |============================
 */
 
-/* .main {} */
+/* HERO */
 
 .hero {
   background-color: var(--brand-color-navy);
 }
-
-/* HERO */
 
 .hero-text {
   color: var(--brand-color-white);
@@ -242,22 +276,7 @@
 .footer {
   background-color: var(--brand-color-navy);
 }
-.link {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Raleway", sans-serif;
-  color: var(--brand-color-iris);
-  width: 44px;
-  height: 21px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .footer-logo {
   color: var(--cloud);
 }
@@ -298,6 +317,9 @@
   background-color: var(--brand-color-ocean);
   cursor: pointer;
 }
+
+
+
 
 /* PORTFOLIO WORKS */
 
