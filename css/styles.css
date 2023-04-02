@@ -10,12 +10,10 @@
   --brand-color-navy: #2e2f42;
   --brand-color-white: #ffffff;
   --brand-color-dairy: #fcfcfc;
-
   /* fonnts */
   --primary-font-roboto: "Roboto", sans-serif;
-  --secondary-raleway: "Raleway", sans-serif;
+  --secondary-font-raleway: "Raleway", sans-serif;
 }
-
 /**
   |============================
   | DEFAULT CLASS
@@ -37,14 +35,12 @@
   color: var(--brand-color-white);
   background-color: #404bbf;
 }
-
 .body {
   font-family: var(--primary-font-roboto);
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
 }
-
 /**
   |============================
   | HEADER
@@ -58,7 +54,7 @@
 }
 .logo-w {
   color: var(--brand-color-iris);
-  font-family: var(--secondary-raleway);
+  font-family: var(--secondary-font-raleway);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -70,16 +66,6 @@
 }
 .header-logo-navy {
   color: var(--brand-color-navy);
-
-  /* font-family: var(--secondary-raleway);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase; */
 }
 .nav-header {
   color: var(--brand-color-navy);
@@ -90,17 +76,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .nav-header:hover,
 .nav-header:focus {
   background-color: #404bbf;
   color: #404bbf;
 }
-
 .address {
   font-style: normal;
 }
-
 .address-header {
   color: var(--brand-color-slate);
   font-family: var(--primary-font-roboto);
@@ -136,7 +119,6 @@
   text-align: center;
   letter-spacing: 0.02em;
 }
-
 .btn-hero {
   color: var(--brand-color-white);
   background-color: var(--brand-color-iris);
@@ -194,19 +176,17 @@
 }
 
 /* .works-img {} */
-/**
-  |============================
-  | SECTION 4 OUR TEAMS
-  |============================
-*/
+
 .teams {
   background-color: #f4f4fd;
 }
+
 /* .our-teams {
-  background-color: #ffffff;
+
 } */
+
 /* .title-section {
-  background-color: #ffffff;
+
 } */
 
 .teams-item-img {
@@ -215,7 +195,6 @@
 .card-teams {
   background-color: #ffffff;
 }
-
 .title-card {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-navy);
@@ -248,11 +227,9 @@
 .footer {
   background-color: var(--brand-color-navy);
 }
-
 .footer-logo-navy {
   color: var(--brand-color-cloud);
 }
-
 .footer-text {
   color: var(--brand-color-cloud);
   font-family: var(--primary-font-roboto);
@@ -262,6 +239,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /**
   |============================
   | MAIM PROTFOLIO
@@ -298,7 +276,6 @@
   background-color: var(--brand-color-cloud);
   cursor: pointer;
 }
-
 .btn-filter:hover,
 .btn-filter:focus {
   color: var(--brand-color-white);
@@ -317,7 +294,6 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
 .text-card-portfolio {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-slate);
