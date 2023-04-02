@@ -94,6 +94,7 @@
 .nav-header:hover,
 .nav-header:focus {
   background-color: #404bbf;
+  color: #404bbf;
 }
 
 .address {
@@ -112,6 +113,7 @@
 .address-header:hover,
 .address-header:focus {
   background-color: #404bbf;
+  color: #404bbf;
 }
 /**
   |============================
@@ -149,9 +151,10 @@
   align-items: center;
   letter-spacing: 0.04em;
 }
-.btn-hero :hover,
+.btn-hero:hover,
 .btn-hero:focus {
   background-color: #404bbf;
+  color: #404bbf;
   cursor: pointer;
 }
 
@@ -196,8 +199,11 @@
   background-color: var(--brand-color-cloud);
 }
 /* .our-teams {} */
-
+/* .title-section {} */
 .teams-item-img {
+  background-color: var(--brand-color-white);
+}
+.card-teams {
   background-color: var(--brand-color-white);
 }
 
