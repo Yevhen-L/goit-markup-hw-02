@@ -35,6 +35,13 @@
   color: var(--brand-color-white);
   background-color: #404bbf;
 }
+
+/**
+  |============================
+  | BODY
+  |============================
+*/
+
 .body {
   font-family: var(--primary-font-roboto);
   font-style: normal;
@@ -47,7 +54,7 @@
   |============================
 */
 
-/* .header {} */
+/* NAV */
 
 .nav {
   background-color: var(--brand-color-white);
@@ -81,6 +88,9 @@
   background-color: #404bbf;
   color: #404bbf;
 }
+
+/* ADDRESS */
+
 .address {
   font-style: normal;
 }
@@ -100,7 +110,7 @@
 }
 /**
   |============================
-  | MAIN INDEX
+  | MAIN INDEX.HTML
   |============================
 */
 
@@ -140,6 +150,8 @@
   cursor: pointer;
 }
 
+/* FUTURES */
+
 /* .futures {} */
 
 /* .futures-item {} */
@@ -175,20 +187,21 @@
   text-transform: capitalize;
 }
 
+/* OUR WORKS */
+
 /* .works-img {} */
+
+/* .works {} */
+
+/* .title-section {} */
+
+/* OUR TEAMS */
+
+/* .our-teams {} */
 
 .teams {
   background-color: #f4f4fd;
 }
-
-/* .our-teams {
-
-} */
-
-/* .title-section {
-
-} */
-
 .teams-item-img {
   background-color: #ffffff;
 }
@@ -246,6 +259,8 @@
   |============================
 */
 
+/* BUTTONS AREA */
+
 .btn-list {
   /* font-family: var(--primary-font-roboto);
   font-style: normal;
@@ -282,6 +297,8 @@
   background-color: #404bbf;
   cursor: pointer;
 }
+
+/* PORTFOLOI WORKS */
 
 /* .img-portfolio {} */
 
