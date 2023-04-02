@@ -37,10 +37,17 @@
   font-style: normal;
   cursor: pointer;
 }
+.link:hover,
+.link:focus {
+  color: var(--brand-color-white);
+  background-color: #404bbf;
+}
 
 .body {
   font-family: var(--primary-font-roboto);
   font-style: normal;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /**
@@ -60,7 +67,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -88,7 +95,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* .address {} */
+.address {
+  font-style: normal;
+}
 
 .address-header {
   color: var(--brand-color-slate);
@@ -99,7 +108,10 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.address-header:hover,
+.address-header:focus {
+  background-color: #404bbf;
+}
 /**
   |============================
   | MAIN INDEX
@@ -138,7 +150,7 @@
 }
 .btn-hero :hover,
 .btn-hero:focus {
-  background-color: var(--brand-color-ocean);
+  background-color: #404bbf;
   cursor: pointer;
 }
 
@@ -183,11 +195,14 @@
 }
 /* .our-teams {} */
 
-/* .teams-item-img {} */
+.teams-item-img {
+  background-color: var(--brand-color-white);
+}
 
 .title-card {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-navy);
+  background-color: var(--brand-color-white);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -198,6 +213,7 @@
 .text-card {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-slate);
+  background-color: var(--brand-color-white);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -249,12 +265,14 @@
 .btn-filter {
   color: var(--brand-color-iris);
   background-color: var(--brand-color-cornflower);
+  cursor: pointer;
 }
 
 .btn-filter:hover,
 .btn-filter:focus {
   color: var(--brand-color-white);
-  background-color: var(--brand-color-ocean);
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* .img-portfolio {} */
