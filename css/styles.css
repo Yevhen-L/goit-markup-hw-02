@@ -199,12 +199,14 @@
   background-color: var(--brand-color-cloud);
 }
 /* .our-teams {} */
-/* .title-section {} */
+/* .title-section {
+
+} */
 .teams-item-img {
-  background-color: var(--brand-color-white);
+  background-color: #ffffff;
 }
 .card-teams {
-  background-color: var(--brand-color-white);
+  background-color: #ffffff;
 }
 
 .title-card {
@@ -273,7 +275,7 @@
 }
 .btn-filter {
   font-family: var(--primary-font-roboto);
-  background-color: #f4f4fd;
+  background-color: var(--brand-color-cloud);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
