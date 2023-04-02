@@ -196,20 +196,20 @@
 /* .works-img {} */
 
 .teams {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
-.our-teams {
+/* .our-teams {
   background-color: #ffffff;
 }
 .title-section {
   background-color: #ffffff;
-}
+} */
 .teams-item-img {
   background-color: #ffffff;
 }
-.card-teams {
+/* .card-teams {
   background-color: #ffffff;
-}
+} */
 
 .title-card {
   font-family: var(--primary-font-roboto);
