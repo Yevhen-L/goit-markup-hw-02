@@ -198,11 +198,13 @@
 .teams {
   background-color: var(--brand-color-cloud);
 }
-/* .our-teams {} */
-/* .title-section {
-
-} */
-.teams-item-img {
+.our-teams {
+  background-color: #ffffff;
+}
+.title-section {
+  background-color: #ffffff;
+}
+*/ .teams-item-img {
   background-color: #ffffff;
 }
 .card-teams {
@@ -288,7 +290,7 @@
 
 .btn-filter {
   color: var(--brand-color-iris);
-  background-color: var(--brand-color-cornflower);
+  background-color: var(--brand-color-cloud);
   cursor: pointer;
 }
 
