@@ -252,7 +252,19 @@
 */
 
 .btn-list {
+  /* font-family: var(--primary-font-roboto);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.btn-filter {
   font-family: var(--primary-font-roboto);
+  background-color: #f4f4fd;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -262,6 +274,7 @@
   text-align: center;
   letter-spacing: 0.04em;
 }
+
 .btn-filter {
   color: var(--brand-color-iris);
   background-color: var(--brand-color-cornflower);
