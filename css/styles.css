@@ -90,6 +90,12 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.nav-header:hover,
+.nav-header:focus {
+  background-color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -174,6 +180,7 @@
 .title-section {
   color: var(--brand-color-navy);
   font-family: var(--primary-font-roboto);
+  background-color: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -252,6 +259,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; */
+  background-color: #f4f4fd;
   display: flex;
   align-items: center;
   text-align: center;
